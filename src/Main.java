@@ -6,10 +6,10 @@ public class Main {
         categoria.Mostra();
         //categoria.PesquisaPorNome("Filme");
         categoria.Categorias("Ação");*/
-        Visitante user = new Visitante();
-        Visitante user1= new Visitante();
+        Usuario user = new Visitante();
+        Usuario user1 = new Visitante();
 
-        System.out.println(user.getClass());
+        System.out.println(user.getNome());
 
     }
 }

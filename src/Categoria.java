@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 
 public class Categoria {
-    private final
+
     HashMap<String ,Filme> listaFilmes = new HashMap<>();
 
     public void AdicionaFilmesCategoria(String categoria, Filme filme){

@@ -1,17 +1,16 @@
 public class Visitante extends Usuario {
 
-    private static int cont;
+   // private static int cont;
 
     public Visitante() {
-        cont++;
+        //cont++;
         super.setNome("Guest");
     }
 
     public void nomeVisistante(){
+
         super.setNome("Guest");
     }
 
-    public static int getCont() {
-        return cont;
-    }
+
 }
